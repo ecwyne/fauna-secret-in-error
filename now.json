@@ -1,0 +1,12 @@
+{
+    "name": "fauna-secret-in-error",
+    "version": 2,
+    "alias": ["fauna-secret-in-error.now.sh"],
+    "regions": ["sfo1"],
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/next"
+        }
+    ]
+}

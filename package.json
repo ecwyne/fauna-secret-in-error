@@ -1,0 +1,21 @@
+{
+    "name": "fauna-secret-in-error",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "next",
+        "build": "next build"
+    },
+    "dependencies": {
+        "@types/node": "^12.12.6",
+        "@types/react": "^16.9.11",
+        "apollo-server-micro": "^2.9.7",
+        "faunadb": "^2.9.3",
+        "graphql": "^14.5.8",
+        "next": "^9.1.2",
+        "react": "^16.11.0",
+        "react-dom": "^16.11.0",
+        "typescript": "^3.7.2"
+    }
+}
