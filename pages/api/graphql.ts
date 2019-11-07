@@ -5,6 +5,7 @@ const client = new Client({ secret: 'ThisIsTheSecret' });
 
 const server = new ApolloServer({
     playground: true,
+    introspection: true,
     typeDefs: gql`
         type Query {
             test: String!
